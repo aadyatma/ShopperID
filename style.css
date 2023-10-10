@@ -1,0 +1,280 @@
+/* Utilities */
+* {
+    font-family: Montserrat;
+
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.subtitle {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.judul {
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Utilities */
+
+/* navbar */
+.navbar {
+    background: red;
+    box-shadow: 0px 0px 10px 1px gray;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.navbar .navbar-brand img {
+    width: 200px;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+    font-size: small;
+    font-weight: bold;
+
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 2px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+
+.navbar .iconify {
+    color: white;
+
+
+}
+
+.navbar .divider {
+    border-left: 1px solid white;
+}
+
+/* navbar */
+
+/* top */
+/* up */
+#top .search {
+    padding-top: 25px;
+}
+
+#top img {
+    width: 150px;
+
+}
+
+#top .btnSearch {
+    padding-top: 25px;
+
+}
+
+#top .btnSearch button {
+    background: red;
+    color: white;
+}
+
+#top .keranjang {
+    padding-top: 25px;
+}
+
+#top .keranjang img {
+    width: 50px;
+}
+
+#top .up {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+/* up */
+#top .carousel-inner {
+    border-radius: 10px;
+}
+
+/* promosi */
+#top .promosi .card {
+    background-color: rgb(246, 76, 76);
+    color: white;
+}
+
+#top .promosi .card-body img {
+    width: 230px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+
+/* promosi */
+#top .card img {
+    width: 100%;
+}
+
+
+
+/* categories */
+#top .categories h6 {
+    color: red;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+#top .categories a {
+    color: red;
+
+}
+
+#top .categories .ctg {
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+
+}
+
+/* categories */
+
+/* flash-sale */
+
+#top .flash-sale .inflash {
+    border-style: none;
+    border-radius: 10 10 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+    margin-bottom: 10px;
+}
+
+#top .flash-sale a {
+    color: red;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+#top .flash-sale .inflash a {
+    color: white;
+
+}
+
+#top .flash-sale p {
+    font-size: smaller;
+}
+
+#top .flash-sale .iconify {
+    color: yellow;
+}
+
+#top .flash-sale .inflash .cost {
+    font-size: small;
+    font-weight: normal;
+
+}
+
+#top .flash-sale .inflash .cost del {
+    color: red;
+
+}
+
+#top .flash-sale .inflash .penilaian {
+    font-size: xx-small;
+    font-weight: normal;
+    color: grey;
+}
+
+#top .flash-sale .inflash .btn {
+    background-color: red;
+    width: 100%;
+}
+
+/* flash-sale */
+
+/* daily-requirments */
+#top .daily .judul {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+#top .daily p {
+    font-size: smaller;
+}
+
+#top .daily .card {
+    margin-bottom: 10px;
+}
+
+#top .daily .card .penilaian {
+    font-size: xx-small;
+    font-weight: normal;
+    color: grey;
+}
+
+#top .daily .card .btn {
+    background-color: red;
+    width: 100%;
+}
+
+#top .daily .iconify {
+    color: yellow;
+}
+
+/* daily-requirments */
+/* top */
+
+/* footer */
+footer {
+    padding: 30px 30px;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 10px 1px gray;
+    font-size: medium;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    font-size: small;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+footer .logo img {
+    width: 250px;
+    margin-left: 150px;
+}
+
+footer img {
+    width: 30px;
+}
+
+
+
+footer .copyright-text {
+    color: white;
+    margin: none;
+    padding: 0;
+}
+
+footer hr {
+    color: white;
+    width: 100%;
+}
+
+/* footer */
