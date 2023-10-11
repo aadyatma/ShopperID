@@ -10,6 +10,7 @@ body a {
 }
 
 
+
 .subtitle {
     text-transform: uppercase;
     color: white;
@@ -193,9 +194,23 @@ body a {
     color: grey;
 }
 
+
 #top .flash-sale .inflash .btn {
+
     background-color: red;
+    border: none;
     width: 100%;
+
+}
+
+#top .flash-sale .inflash .cart .btn {
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px gray;
+    border-radius: 0 10px 0 10px;
+}
+
+#top .flash-sale .inflash .addtocart {
+    width: 19px;
 }
 
 /* flash-sale */
@@ -221,9 +236,24 @@ body a {
     color: grey;
 }
 
-#top .daily .card .btn {
+#top .daily .btn {
+
     background-color: red;
+    border: none;
     width: 100%;
+    color: white;
+    font-weight: 600;
+
+}
+
+#top .daily .cart .btn {
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px gray;
+    border-radius: 0 10px 0 10px;
+}
+
+#top .flash-sale .inflash .addtocart {
+    width: 19px;
 }
 
 #top .daily .iconify {
