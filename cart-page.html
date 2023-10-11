@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopperID Cart</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <!-- Font & Bg color -->
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Outfit:wght@400;600&display=swap");
+
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">
+                        <span class="iconify" data-icon="material-symbols:help-outline"></span>Help</a>
+                    <a class="nav-link" href="./about-page.html">
+                        <span class="iconify" data-icon="ic:baseline-notifications-none"></span>Notification</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="iconify" data-icon="icon-park-outline:earth"></span>EN</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <p class="dropdown-item" href="#">English</p>
+                            </li>
+                            <li>
+                                <p class="dropdown-item" href="#">Indonesia</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <a class="nav-link" href="./cart-page.html">Sign Up</a>
+                    <div class="divider"></div>
+                    <a class="nav-link" href="./library-page.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <section id="cart">
+        <div class="container">
+            <div class="row up">
+                <div class="col-lg-3">
+                    <a href="./index.html"><img src="./assets/logo.png" alt="" /></a>
+                </div>
+
+                <div class="col-lg-6 search">
+                    <!-- search -->
+                    <form action="">
+                        <input type="search" class="form-control" placeholder="Search in ShopperID"
+                            data-bs-theme="light" />
+                    </form>
+                    <!-- search -->
+                </div>
+                <div class="col-lg-1 btnSearch">
+                    <!-- btnSearch -->
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-discover-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-discover" type="button" role="tab" aria-controls="pills-discover"
+                                aria-selected="true">
+                                Search
+                            </button>
+                        </li>
+                    </ul>
+                    <!-- btnSearch -->
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-lg-12">
+                    <h5>ShopperID Cart</h5>
+                </div>
+                <div class="row">
+                    <div class="card judul">
+                        <div class="row">
+                            <div class="col-lg-1">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="col-lg-2">
+                                product
+                            </div>
+                            <div class="col-lg-2">
+                                qty
+                            </div>
+                            <div class="col-lg-2">
+                                unit price
+                            </div>
+                            <div class="col-lg-2">
+                                price total
+                            </div>
+                            <div class="col-lg-2">
+                                action
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <h5>iBox Official</h5>
+                    <div class="card isi">
+                        <div class="row">
+                            <div class="col-lg-1 mt-5">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="col-lg-2">
+                                <a href="./detail-produk.html"><img src="./assets/img7.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                <input type="number" min="0" max="99" step="1" value="0">
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                Rp19.000.000
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                Rp19.000.000
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                <a href="./buy-page.html" class="btn">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <h5>Asus Indonesia Official</h5>
+                    <div class="card isi">
+                        <div class="row">
+                            <div class="col-lg-1 mt-5">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="col-lg-2">
+                                <a href="./detail-produk.html"><img src="./assets/img5.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                <input type="number" min="0" max="99" step="1" value="0">
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                Rp19.000.000
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                Rp19.000.000
+                            </div>
+                            <div class="col-lg-2 mt-5">
+                                <a href="./buy-page.html" class="btn">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="link">
+                        <h6 class="subtitle">about us</h6>
+                        <ul>
+                            <li><a href="./about-shopper.html">About ShopperID.com</a></li>
+                            <li><a href="./GroupShopperID.com">About Shopper Group</a></li>
+                            <li><a href="./ShopperID.blogspot">ShopperID.com Blog</a></li>
+                            <li><a href="#hero">Popular</a></li>
+                            <li><a href="./sales-page.html">Sales & Special</a></li>
+                            <li><a href="./freegame-page.html">Free Games</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="link">
+                        <h6 class="subtitle">customer services</h6>
+                        <ul>
+                            <li><a href="./help.html">Help Center</a></li>
+                            <li><a href="#">Report abuse</a></li>
+                            <li><a href="#">Term and Conditions</a></li>
+                            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="subtitle">follow us</h6>
+                    <ul>
+                        <li><a href="./instagram.com/aadyatma_"><img src="./assets/img16.png" alt=""></a></li>
+                        <li><a href="./facebook.com/agungadyatma"><img src="./assets/img15.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 logo">
+                    <a href="./index.html"><img src="./assets/2.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <h6 class="copyright-text">
+            &copy; Copyright ShopperID, 2023 All Rights Reserved
+        </h6>
+        </div>
+    </footer>
+
+    <!-- footer -->
+</body>
+
+</html>
