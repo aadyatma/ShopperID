@@ -359,6 +359,13 @@ body a {
     justify-content: center;
 }
 
+#buy h5{
+    color: red;
+    font-weight: 600;
+    padding-top: 10px;
+    
+}
+
 /* buy-page */
 
 /* footer */
