@@ -9,7 +9,23 @@ body a {
     color: white;
 }
 
+.chip {
+    display: inline-block;
+    margin-left: 20px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 25px;
 
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
 
 .subtitle {
     text-transform: uppercase;
@@ -323,24 +339,6 @@ body a {
 /* cart-page */
 
 /* buy-page */
-.chip {
-    display: inline-block;
-    margin-left: 20px;
-    height: 25px;
-    font-size: 16px;
-    line-height: 25px;
-    border-radius: 25px;
-
-}
-
-.chip img {
-    float: left;
-    margin: 0 10px 0 -25px;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-}
-
 #buy img {
     width: 150px;
 
@@ -431,7 +429,7 @@ body a {
     text-align: center;
 }
 
-#success .daily .card img{
+#success .daily .card img {
     width: 100%;
 }
 
@@ -468,11 +466,16 @@ body a {
     background-color: white;
     box-shadow: 0px 0px 2px 1px gray;
     border-radius: 0 10px 0 10px;
-   
+
 }
 
 #success .daily .iconify {
     color: yellow;
+}
+
+#success .goshop p {
+    color: black;
+    font-size: small;
 }
 
 /* payment-success */
