@@ -359,14 +359,43 @@ body a {
     justify-content: center;
 }
 
-#buy h5{
+#buy h5 {
     color: red;
     font-weight: 600;
     padding-top: 10px;
-    
+
 }
 
 /* buy-page */
+/* confirm-page */
+#confirm img {
+    width: 150px;
+
+}
+
+#confirm .up {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+#confirm .btn {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#confirm h5 {
+    color: red;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+/* confirm-page */
+
 
 /* footer */
 footer {
