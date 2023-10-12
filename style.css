@@ -477,6 +477,7 @@ body a {
     color: black;
     font-size: small;
 }
+
 /* payment-success */
 
 /* in-login */
@@ -653,7 +654,7 @@ body a {
     background-color: white;
     box-shadow: 0px 0px 2px 1px gray;
     border-radius: 0 10px 0 10px;
-    
+
 }
 
 #in-login .flash-sale .inflash .addtocart {
@@ -667,6 +668,97 @@ body a {
 /* daily-requirments */
 /* in-login */
 
+/* produk */
+#produk .search {
+    padding-top: 25px;
+}
+
+#produk img {
+    width: 150px;
+
+}
+
+#produk .btnSearch {
+    padding-top: 25px;
+
+}
+
+#produk .btnSearch button {
+    background: red;
+    color: white;
+}
+
+#produk .keranjang {
+    padding-top: 25px;
+}
+
+#produk .keranjang img {
+    width: 50px;
+}
+
+#produk .up {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+#produk .game-image {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#produk h1 {
+    font-weight: 600;
+}
+
+#produk table {
+    width: 100%;
+}
+
+#produk table th {
+    color: grey;
+}
+
+#produk .trigger .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+
+}
+
+
+#produk .modal a {
+    color: black;
+}
+
+#produk .modal .btn {
+    background: red;
+    border: none;
+    color: white;
+    width: 50%;
+    font-weight: 600;
+}
+
+#produk .modal-body {
+    padding: 30px;
+}
+
+#produk .modal .btn {
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+#produk .modal .btn-close {
+    margin-left: auto;
+    display: flex;
+}
+
+
+
+/* produk */
 /* footer */
 footer {
     padding: 30px 30px;

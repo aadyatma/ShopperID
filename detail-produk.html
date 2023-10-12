@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopperID</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <!-- Font & Bg color -->
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Outfit:wght@400;600&display=swap");
+
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">
+                        <span class="iconify" data-icon="material-symbols:help-outline"></span>Help</a>
+                    <a class="nav-link" href="./about-page.html">
+                        <span class="iconify" data-icon="ic:baseline-notifications-none"></span>Notification</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="iconify" data-icon="icon-park-outline:earth"></span>EN</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <p class="dropdown-item" href="#">English</p>
+                            </li>
+                            <li>
+                                <p class="dropdown-item" href="#">Indonesia</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <a class="nav-link" href="./cart-page.html">Sign Up</a>
+                    <div class="divider"></div>
+                    <a class="nav-link" href="./library-page.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <section id="produk">
+        <div class="container">
+            <div class="row up">
+                <div class="col-lg-3">
+                    <a href="./index.html"><img src="./assets/logo.png" alt=""></a>
+                </div>
+                <div class="col-lg-6 search">
+                    <!-- search -->
+                    <form action="">
+                        <input type="search" class="form-control" placeholder="Search in ShopperID"
+                            data-bs-theme="light" />
+                    </form>
+                    <!-- search -->
+                </div>
+                <div class="col-lg-1 btnSearch">
+                    <!-- btnSearch -->
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-discover-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-discover" type="button" role="tab" aria-controls="pills-discover"
+                                aria-selected="true">
+                                Search
+                            </button>
+                        </li>
+                    </ul>
+                    <!-- btnSearch -->
+                </div>
+                <div class="col-lg-1 keranjang">
+                    <a href="./cart-page.html"><img src="./assets/cart.png" alt=""></a>
+                </div>
+            </div>
+
+            <!-- detail-produk -->
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <img src="./assets/img7.png" alt="" class="game-image">
+                </div>
+                <div class="col-lg-8 mt-3">
+                    <h1>iPhone 14 Pro Max</h1>
+                    <h2 class="cost mb-3">Rp19.000.000</h2>
+                    <h6 class="mt-3"><b>Memori</b></h6>
+                    <table>
+                        <tr>
+                            <td>128GB</td>
+                            <td>256GB</td>
+                            <td>512GB</td>
+                        </tr>
+                    </table>
+                    <p class="mt-3"><b>Warna</b></p>
+                    <table>
+
+                        <tr>
+                            <td>Natural Titanium</td>
+                            <td>Blue Titanium</td>
+                            <td>White Titanium</td>
+                            <td>Black Titanium</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <h6><b>Product Description</b></h6>
+                    <p>iPhone 14 Pro MaxLayar : 6.7 inch <br>
+                        Ukuran : 128GB - 256GB - 512GB <br>
+                        Warna : Natural Titanium - Blue Titanium - White Titanium - Black Titanium</p>
+                    <!-- Button trigger modal -->
+                    <div class="trigger mt-5">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <button type="button" class="btn buy" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Buy Now!
+                                </button>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="./cart-page.html" class="btn cart">
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" data-bs-theme="light" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close mb-3" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                    <!-- form login -->
+                                    <img src="./assets/logo.png" alt="">
+                                    <br>
+                                    <h5>Login</h5>
+                                    <p class="text-secondary mb-5">Please, login to buy this product!</p>
+
+                                    <form action="">
+                                        <label for="username">Username</label>
+                                        <input type="text" class="form-control mb-3" placeholder="input username">
+
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" placeholder="input password">
+                                        <a href="./about-page.html" class="d-flex justify-content-end mt-3">Forgot
+                                            password?</a>
+                                    </form>
+
+                                    <a href="./buy-page.html" class="btn mt-5 mb-5">Login</a>
+                                    <p class="d-flex justify-content-center">Don't have an account? <a
+                                            href="./signup-page.html">Sign
+                                            Up</a></p>
+                                    <!-- form login -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- detail-produk -->
+
+                </div>
+
+    </section>
+
+</body>
+
+</html>
