@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopperID | Buy </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <!-- Font & Bg color -->
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Outfit:wght@400;600&display=swap");
+
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">
+                        <span class="iconify" data-icon="material-symbols:help-outline"></span>Help</a>
+                    <a class="nav-link" href="./about-page.html">
+                        <span class="iconify" data-icon="ic:baseline-notifications-none"></span>Notification</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="iconify" data-icon="icon-park-outline:earth"></span>EN</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <p class="dropdown-item" href="#">English</p>
+                            </li>
+                            <li>
+                                <p class="dropdown-item" href="#">Indonesia</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <div class="chip">
+                        <img src="./assets/avatar.png" alt="Person" width="96" height="96">
+                        John Doe
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- buy-page -->
+    <section id="buy">
+        <div class="container">
+            <div class="row up">
+                <div class="col-lg-3">
+                    <a href="./index.html"><img src="./assets/logo.png" alt=""></a>
+                </div>
+            </div>
+
+            <!-- alamat -->
+            <div class="row mt-3">
+                <div class="card address">
+                    <h5>Delivery Order</h5>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <p><b>John Doe</b></p>
+                        </div>
+                        <div class="col-lg-7">
+                            <p>Komplek Rajawali Village, Jl. Rajawali No.1228 30114 Palembang Sumatera Selatan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- alamat -->
+            <!--  produk -->
+            <div class="row mt-3">
+                <div class="card judul">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            product
+                        </div>
+                        <div class="col-lg-1">
+                            qty
+                        </div>
+                        <div class="col-lg-2">
+                            unit price
+                        </div>
+                        <div class="col-lg-2">
+                            price total
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="card isi">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <p>iPhone 14 Pro Max</p>
+                            <a href="./detail-produk.html"><img src="./assets/img7.png" alt=""></a>
+                        </div>
+                        <div class="col-lg-1 mt-5">
+                            1
+                        </div>
+                        <div class="col-lg-2 mt-5">
+                            Rp19.000.000
+                        </div>
+                        <div class="col-lg-2 mt-5">
+                            Rp19.000.000
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="card judul">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            payment method
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Gopay
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    bank transfer
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    cash on delivery
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-3">
+                            <a href="./payment-complete.html" class="btn">Check Out</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="link">
+                        <h6 class="subtitle">about us</h6>
+                        <ul>
+                            <li><a href="./about-shopper.html">About ShopperID.com</a></li>
+                            <li><a href="./GroupShopperID.com">About Shopper Group</a></li>
+                            <li><a href="./ShopperID.blogspot">ShopperID.com Blog</a></li>
+                            <li><a href="#hero">Popular</a></li>
+                            <li><a href="./sales-page.html">Sales & Special</a></li>
+                            <li><a href="./freegame-page.html">Free Games</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="link">
+                        <h6 class="subtitle">customer services</h6>
+                        <ul>
+                            <li><a href="./help.html">Help Center</a></li>
+                            <li><a href="#">Report abuse</a></li>
+                            <li><a href="#">Term and Conditions</a></li>
+                            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="subtitle">follow us</h6>
+                    <ul>
+                        <li><a href="./instagram.com/aadyatma_"><img src="./assets/img16.png" alt=""></a></li>
+                        <li><a href="./facebook.com/agungadyatma"><img src="./assets/img15.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 logo">
+                    <a href="./index.html"><img src="./assets/2.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <h6 class="copyright-text">
+            &copy; Copyright ShopperID, 2023 All Rights Reserved
+        </h6>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -194,19 +194,11 @@ body a {
     color: grey;
 }
 
-
-#top .flash-sale .inflash .btn {
-
-    background-color: red;
-    border: none;
-    width: 100%;
-
-}
-
 #top .flash-sale .inflash .cart .btn {
     background-color: white;
     box-shadow: 0px 0px 2px 1px gray;
     border-radius: 0 10px 0 10px;
+    margin-left: 50px;
 }
 
 #top .flash-sale .inflash .addtocart {
@@ -250,6 +242,7 @@ body a {
     background-color: white;
     box-shadow: 0px 0px 2px 1px gray;
     border-radius: 0 10px 0 10px;
+    margin-left: 50px;
 }
 
 #top .flash-sale .inflash .addtocart {
@@ -293,14 +286,80 @@ body a {
     background-color: red;
     color: white;
     font-weight: 600;
+    justify-content: center;
 }
 
 #cart .isi img {
     width: 150px;
 }
 
+#cart .modal a {
+    color: black;
+}
+
+#cart .modal .btn {
+    background: red;
+    border: none;
+    color: white;
+    width: 50%;
+    font-weight: 600;
+}
+
+#cart .modal-body {
+    padding: 30px;
+}
+
+#cart .modal .btn {
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+#cart .modal .btn-close {
+    margin-left: auto;
+    display: flex;
+}
 
 /* cart-page */
+
+/* buy-page */
+.chip {
+    display: inline-block;
+    padding: 0 20px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+#buy img {
+    width: 150px;
+
+}
+
+#buy .up {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+#buy .btn {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+}
+
+/* buy-page */
 
 /* footer */
 footer {

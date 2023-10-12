@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ShopperID Cart</title>
+    <title>ShopperID | Cart</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
@@ -133,6 +133,7 @@
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             </div>
                             <div class="col-lg-2">
+                                <p>iPhone 14 Pro Max</p>
                                 <a href="./detail-produk.html"><img src="./assets/img7.png" alt=""></a>
                             </div>
                             <div class="col-lg-2 mt-5">
@@ -145,7 +146,8 @@
                                 Rp19.000.000
                             </div>
                             <div class="col-lg-2 mt-5">
-                                <a href="./buy-page.html" class="btn">Buy</a>
+                                <button type="button" class="btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -158,6 +160,7 @@
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             </div>
                             <div class="col-lg-2">
+                                Asus Vivobook 15"
                                 <a href="./detail-produk.html"><img src="./assets/img5.png" alt=""></a>
                             </div>
                             <div class="col-lg-2 mt-5">
@@ -170,7 +173,8 @@
                                 Rp19.000.000
                             </div>
                             <div class="col-lg-2 mt-5">
-                                <a href="./buy-page.html" class="btn">Buy</a>
+                                <button type="button" class="btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -178,6 +182,39 @@
 
 
             </div>
+            <!-- Modal -->
+            <div class="modal fade" data-bs-theme="light" id="exampleModal" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close mb-3" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            <!-- form login -->
+                            <img src="./assets/logo.png" alt="">
+                            <br>
+                            <h5>Login</h5>
+                            <p class="text-secondary mb-5">Please, login to buy this product!</p>
+
+                            <form action="">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control mb-3" placeholder="input username">
+
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" placeholder="input password">
+                                <a href="./about-page.html" class="d-flex justify-content-end mt-3">Forgot password?</a>
+                            </form>
+
+                            <a href="./buy-page.html" class="btn mt-5 mb-5">Login</a>
+                            <p class="d-flex justify-content-center">Don't have an account? <a
+                                    href="./signup-page.html">Sign
+                                    Up</a></p>
+                            <!-- form login -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
         </div>
     </section>
 
