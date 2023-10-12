@@ -325,12 +325,12 @@ body a {
 /* buy-page */
 .chip {
     display: inline-block;
-    padding: 0 20px;
+    margin-left: 20px;
     height: 25px;
     font-size: 16px;
     line-height: 25px;
     border-radius: 25px;
-    background-color: #f1f1f1;
+
 }
 
 .chip img {
@@ -396,7 +396,86 @@ body a {
 
 /* confirm-page */
 
+/* payment-success */
+#success img {
+    width: 150px;
 
+}
+
+#success .up {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+#success .success .btn {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#success .card {
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px gray;
+
+}
+
+#success .card h3 {
+    text-align: center;
+}
+
+#success .success {
+    text-align: center;
+}
+
+#success .daily .card img{
+    width: 100%;
+}
+
+#success .daily .judul {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+#success .daily p {
+    font-size: smaller;
+}
+
+#success .daily .card .penilaian {
+    font-size: xx-small;
+    font-weight: normal;
+    color: grey;
+}
+
+#success .daily .btn {
+    background-color: red;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+
+}
+
+#success .daily .cart img {
+    width: 100%;
+}
+
+#success .daily .cart .btn {
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px gray;
+    border-radius: 0 10px 0 10px;
+   
+}
+
+#success .daily .iconify {
+    color: yellow;
+}
+
+/* payment-success */
 /* footer */
 footer {
     padding: 30px 30px;
