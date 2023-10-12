@@ -477,8 +477,196 @@ body a {
     color: black;
     font-size: small;
 }
-
 /* payment-success */
+
+/* in-login */
+#in-login .search {
+    padding-top: 25px;
+}
+
+#in-login img {
+    width: 150px;
+
+}
+
+#in-login .btnSearch {
+    padding-top: 25px;
+
+}
+
+#in-login .btnSearch button {
+    background: red;
+    color: white;
+}
+
+#in-login .keranjang {
+    padding-top: 25px;
+}
+
+#in-login .keranjang img {
+    width: 50px;
+}
+
+#in-login .up {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+/* up */
+#in-login .carousel-inner {
+    border-radius: 10px;
+}
+
+/* promosi */
+#in-login .promosi .card {
+    background-color: rgb(246, 76, 76);
+    color: white;
+}
+
+#in-login .promosi .card-body img {
+    width: 230px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+
+/* promosi */
+#in-login .card img {
+    width: 100%;
+}
+
+
+
+/* categories */
+#in-login .categories h6 {
+    color: red;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+#in-login .categories a {
+    color: red;
+
+}
+
+#in-login .categories .ctg {
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+
+}
+
+/* categories */
+
+/* flash-sale */
+
+#in-login .flash-sale .inflash {
+    border-style: none;
+    border-radius: 10 10 10px 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+    margin-bottom: 10px;
+}
+
+#in-login .flash-sale a {
+    color: red;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+#in-login .flash-sale .inflash a {
+    color: white;
+
+}
+
+#in-login .flash-sale p {
+    font-size: smaller;
+}
+
+#in-login .flash-sale .iconify {
+    color: yellow;
+}
+
+#in-login .flash-sale .inflash .cost {
+    font-size: small;
+    font-weight: normal;
+
+}
+
+#in-login .flash-sale .inflash .cost del {
+    color: red;
+
+}
+
+#in-login .flash-sale .inflash .penilaian {
+    font-size: xx-small;
+    font-weight: normal;
+    color: grey;
+}
+
+#in-login .flash-sale .inflash .cart .btn {
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px gray;
+    border-radius: 0 10px 0 10px;
+    margin-left: 50px;
+}
+
+#in-login .flash-sale .inflash .addtocart {
+    width: 19px;
+}
+
+/* flash-sale */
+
+/* daily-requirments */
+#in-login .daily .judul {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+#in-login .daily p {
+    font-size: smaller;
+}
+
+#in-login .daily .card {
+    margin-bottom: 10px;
+}
+
+#in-login .daily .card .penilaian {
+    font-size: xx-small;
+    font-weight: normal;
+    color: grey;
+}
+
+#in-login .daily .btn {
+
+    background-color: red;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+
+}
+
+#in-login .daily .cart .btn {
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px gray;
+    border-radius: 0 10px 0 10px;
+    
+}
+
+#in-login .flash-sale .inflash .addtocart {
+    width: 19px;
+}
+
+#in-login .daily .iconify {
+    color: yellow;
+}
+
+/* daily-requirments */
+/* in-login */
+
 /* footer */
 footer {
     padding: 30px 30px;
