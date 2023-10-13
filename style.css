@@ -756,9 +756,93 @@ body a {
     display: flex;
 }
 
-
-
 /* produk */
+
+/* login */
+#login {
+    margin-top: 50px;
+    
+    background-image: url(./assets/image-pg-login.jpg);
+    background-size: cover;
+    padding-left: 900px;
+}
+
+#login a {
+    text-decoration: none;
+    color: black;
+}
+
+#login h5 {
+    text-align: center;
+}
+
+#login p {
+    text-align: center;
+}
+
+.bg-login {
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+   
+    color: black;
+}
+
+.bg-login .btn {
+    background-color: red;
+    border: none;
+    color: white;
+}
+#login .bg-login .btn {
+    color: white;
+}
+/* login */
+
+
+/* signup */
+#signup {
+    margin-top: 50px;
+    width: 100%;
+    background-image: url(./assets/image-pg-login.jpg);
+    background-size: cover;
+    padding-left: 900px;
+}
+
+#signup a {
+    text-decoration: none;
+    color: black;
+}
+
+#signup h5 {
+    text-align: center;
+}
+
+#signup p {
+    text-align: center;
+}
+
+.bg-signup {
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+   
+    color: black;
+}
+
+.bg-signup .btn {
+    background-color: red;
+    border: none;
+    color: white;
+}
+#signup .bg-signup .btn {
+    color: white;
+}
+#signup label{
+    font-weight: 600;
+    font-size: small;
+}
+/* sign up */
+
 /* footer */
 footer {
     padding: 30px 30px;
